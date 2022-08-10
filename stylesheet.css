@@ -1,0 +1,161 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box;  
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.logo-background{
+    width: 30%;
+    background-image: url(Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 68vh;
+}
+
+.rectangle{
+    background-color: rgba(0, 0, 0, 0.33);
+    margin-top: 23vh;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height: 90%;
+    opacity: 1;
+}
+
+.logo-text{
+    color: white;
+    font-size: 10vh;
+    font-family: 'Norse';
+    font-weight: bold;
+}
+
+.signUp-container{
+    background-color: gray;
+    width: 70%;
+    height: 100%;
+}
+
+.upper-container{
+    background-color: whitesmoke;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 7vw 20vw 0px 3.5vw;
+    gap: 50px;
+}
+
+.middle-container{
+    height: 35%;
+    background-color: white;
+    box-shadow: 0 8px 6px -6px black;
+    padding: 2vh 20vw 0px 3.5vw;
+    overflow: auto;
+}
+
+.sign-up{
+    display: grid;
+    padding-top: 40px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label{
+    font-family: 'Circular Std Bold';
+    color: dimgrey;
+    font-size: 150%;
+}
+
+input{
+    width: 18vw;
+    padding: 6px 10px;
+    font-size: 24px;
+}
+
+input:focus{
+    outline: none !important;
+    border: 2px solid blue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.error{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.error:focus{
+    border: 2px solid red;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px grey;
+}
+
+#text{
+    font-size: 1.6vw;
+    font-family: 'Circular Std Bold';
+}
+
+.lower-container{
+    background-color: whitesmoke;
+    height: 25%;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+button{
+    background-color: darkolivegreen;
+    font-family: 'Circular Std Bold';
+    color: white;
+    font-size: 1.25vw;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 15px;
+}
+
+#signIn{
+    padding-top: 4.5vh;
+    font-size: .95vw;
+    font-family: 'Circular Std Bold';
+}
+br{
+    height: 0px;
+}
+
+#wPassword{
+    font-size: 24px;
+    color: red;
+}
+
+a{
+    color: darkolivegreen;
+    text-decoration: none;
+}
